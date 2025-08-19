@@ -1,23 +1,23 @@
-# TODOs
+# Overview
 
-- [ ] `[Medium]`Implement Update `TransactionRepository`
-- [ ] `[Low]`Implement Soft Delete `TransactionRepository`
-- [ ] `[High]` Implement validate props `TransactionService`
+ExpenseTracker is my first full-stack app. It’s basically a personal finance tracker.
+Here, you can log your income, track expenses, categorize them, and peek at summaries
+while I learn Node JS, design patterns, SQLite3 and how to not completely break everything.
+
+> Disclaimer: Don’t even try to run this. It probably won’t work
+
+It’s messy, it’s growing, and I’m learning as I go. Think of it like a Tamagotchi… but for code and finances.
+
+## Tech stuff
+
+- Backend: Node.js + Express (my new best friends)
+- Frontend: React + Tailwind CSS (easier than css and i dont to right utilities)
+- Database: SQLite3 (lightweight and easy, because I’m a beginner)
+
+## TODOs
+
+- [ ] Implement Update `TransactionRepository`
+- [ ] Implement Soft Delete `TransactionRepository`
+- [ ] Implement validate props `TransactionService`
   - [ ] Fix validate Error `feild method`
   - [ ] refactor `ValidationError`
-
-# server
-
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.2.19. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
